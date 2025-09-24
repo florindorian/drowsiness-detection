@@ -7,8 +7,6 @@ RESOLUCAO_Y = 720
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, RESOLUCAO_X)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, RESOLUCAO_Y)
 
-cap = cv2.VideoCapture(0)
-
 while cap.isOpened(): # ou: while True:
     sucesso, frame = cap.read()
 
